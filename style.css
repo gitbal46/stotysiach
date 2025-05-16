@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#all-content{
+    width: 1280px;
+    background-color: #D9D9D9;
+    padding: 40px;
+    font-family: Montserrat;
+    font-size: 20px;    
+}
+
+header{
+    background-image: url(./images/header.png);
+    color: white;
+    height: 200px;
+}
+
+main {
+    display: inline-flex;
+}
+
+aside {
+    background-color: #28CF7B;
+    width: 370px;
+}
+
+aside img {
+    width: 370px;
+}
+
+aside a {
+    color: #162142;
+}
+
+aside a:hover {
+    color: #ffbc00;
+}
+
+aside ul, #about-work ul {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+#about-work {
+    background-color: white;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 800;
+    margin: 30px 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 8px 0px;
+}
+
+#about-work h2 {
+    color: #28CF7B;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 8px 0px;
+    color: #162142;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px 80px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffbc00;
+}
+
+#true-author-name {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#quote-text {
+    border-style: solid;
+    border-width: 0px 0px 0px 10px;
+    border-color: #ffbc00;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#quote-description {
+    padding: 8px 0px 0px 200px;
+}
+
+.text-block {
+    margin: 30px 50px;
+}
+
+.years {
+    font-size: 32px;
+} 
+
+.content-text-block {
+    margin: 40px 80px;
+}
